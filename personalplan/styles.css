@@ -29,6 +29,11 @@ Fonts are separated by a & */
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
+#background{
+  background-color: cyan;
+}
+
+
 body {
   max-width: 960px;
   margin: 0 auto;
@@ -75,14 +80,14 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #999;
+  background-color: rgb(222, 69, 69);
 }
 .colors td{
   width: 25%;
   height: 3em;
 }
 .primary {
-  background-color: var(--primary-color);
+  background-color: cyan;
 }
 .secondary {
   background-color: var(--secondary-color);
